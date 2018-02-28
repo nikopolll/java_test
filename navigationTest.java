@@ -4,10 +4,10 @@ import static org.junit.Assert.assertEquals;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
+//import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+//import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
@@ -22,7 +22,7 @@ public class navigationTest {
 	}
 	
 	@Test
-	public void navigationTest() {
+	public void navTests() {
 		driver.navigate().to("http://www.seleniumeasy.com/test/basic-checkbox-demo.html");
 		assertEquals("Selenium Easy - Checkbox demo for automation using selenium", driver.getTitle());
 		System.out.println(driver.getTitle());
