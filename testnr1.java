@@ -34,7 +34,7 @@ public class testnr1 {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains("selenium 3 api"));
 		
-		System.out.println(driver.getTitle() + "Test przeszedł pomyślnie");
+		System.out.println(driver.getTitle() + "Test wykonany pomyślnie");
 	}
 	
 	@Test
