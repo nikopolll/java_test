@@ -26,7 +26,7 @@ public class testnr2 {
 	public void menuNaw() {
 		WebElement menu = driver.findElement(By.cssSelector("div.container > div > ul > li > a"));
 		menu.click();
-		WebDriverWait wait = new WebDriverWait(driver, 15);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains("Simple Form"));
 		System.out.println(driver.getTitle());
 		
