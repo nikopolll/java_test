@@ -28,7 +28,7 @@ public class testnr3 {
 	@Test
 	public void checkSiteUrl() {
 		assertEquals("http://www.seleniumeasy.com/test/basic-checkbox-demo.html", driver.getCurrentUrl());
-		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
 	}
 	
 	@Test
